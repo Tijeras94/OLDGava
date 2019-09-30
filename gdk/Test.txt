@@ -1,0 +1,184 @@
+Compiled from "Test.java"
+public class Test extends java.lang.Object implements ITest,ITest2,ITest3,ITest4
+  SourceFile: "Test.java"
+  minor version: 0
+  major version: 50
+  Constant pool:
+const #1 = Method	#5.#35;	//  java/lang/Object."<init>":()V
+const #2 = String	#36;	//  Hello World
+const #3 = Method	#4.#37;	//  Test.Print:(Ljava/lang/String;)V
+const #4 = class	#38;	//  Test
+const #5 = class	#39;	//  java/lang/Object
+const #6 = class	#40;	//  ITest
+const #7 = class	#41;	//  ITest2
+const #8 = class	#42;	//  ITest3
+const #9 = class	#43;	//  ITest4
+const #10 = Asciz	name;
+const #11 = Asciz	Ljava/lang/String;;
+const #12 = Asciz	a;
+const #13 = Asciz	I;
+const #14 = Asciz	b;
+const #15 = Asciz	c;
+const #16 = Asciz	d;
+const #17 = Asciz	e;
+const #18 = Asciz	f;
+const #19 = Asciz	<init>;
+const #20 = Asciz	()V;
+const #21 = Asciz	Code;
+const #22 = Asciz	LineNumberTable;
+const #23 = Asciz	Print;
+const #24 = Asciz	(I)V;
+const #25 = Asciz	(Ljava/lang/String;)V;
+const #26 = Asciz	Entry;
+const #27 = Asciz	()I;
+const #28 = Asciz	add;
+const #29 = Asciz	(II)I;
+const #30 = Asciz	Sub;
+const #31 = Asciz	mul;
+const #32 = Asciz	div;
+const #33 = Asciz	SourceFile;
+const #34 = Asciz	Test.java;
+const #35 = NameAndType	#19:#20;//  "<init>":()V
+const #36 = Asciz	Hello World;
+const #37 = NameAndType	#23:#25;//  Print:(Ljava/lang/String;)V
+const #38 = Asciz	Test;
+const #39 = Asciz	java/lang/Object;
+const #40 = Asciz	ITest;
+const #41 = Asciz	ITest2;
+const #42 = Asciz	ITest3;
+const #43 = Asciz	ITest4;
+
+{
+public java.lang.String name;
+
+
+public int a;
+
+
+public int b;
+
+
+public int c;
+
+
+public int d;
+
+
+public int e;
+
+
+public int f;
+
+
+public Test();
+  LineNumberTable: 
+   line 9: 0
+   line 11: 4
+
+
+
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V
+   4:	return
+  LineNumberTable: 
+   line 9: 0
+   line 11: 4
+
+
+public native void Print(int);
+
+
+
+
+public native void Print(java.lang.String);
+
+
+
+
+public int Entry();
+  LineNumberTable: 
+   line 21: 0
+   line 22: 6
+
+
+
+  Code:
+   Stack=2, Locals=1, Args_size=1
+   0:	aload_0
+   1:	ldc	#2; //String Hello World
+   3:	invokevirtual	#3; //Method Print:(Ljava/lang/String;)V
+   6:	iconst_0
+   7:	ireturn
+  LineNumberTable: 
+   line 21: 0
+   line 22: 6
+
+
+public int add(int, int);
+  LineNumberTable: 
+   line 28: 0
+
+
+
+  Code:
+   Stack=2, Locals=3, Args_size=3
+   0:	iload_1
+   1:	iload_2
+   2:	iadd
+   3:	ireturn
+  LineNumberTable: 
+   line 28: 0
+
+
+public int Sub(int, int);
+  LineNumberTable: 
+   line 38: 0
+
+
+
+  Code:
+   Stack=2, Locals=3, Args_size=3
+   0:	iload_1
+   1:	iload_2
+   2:	isub
+   3:	ireturn
+  LineNumberTable: 
+   line 38: 0
+
+
+public int mul(int, int);
+  LineNumberTable: 
+   line 42: 0
+
+
+
+  Code:
+   Stack=2, Locals=3, Args_size=3
+   0:	iload_1
+   1:	iload_2
+   2:	imul
+   3:	ireturn
+  LineNumberTable: 
+   line 42: 0
+
+
+public int div(int, int);
+  LineNumberTable: 
+   line 46: 0
+
+
+
+  Code:
+   Stack=2, Locals=3, Args_size=3
+   0:	iload_1
+   1:	iload_2
+   2:	idiv
+   3:	ireturn
+  LineNumberTable: 
+   line 46: 0
+
+
+}
+
